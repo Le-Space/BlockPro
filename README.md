@@ -1,4 +1,4 @@
-# BlockPro
+# BlockPro (out of the perspective of blockchain developer)
 Mission: Open, decentralized, permissenless and trustless protocol for energy consumers and suppliers
 
 ![Consollino Prosumer Node](./Consollino.png)
