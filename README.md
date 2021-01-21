@@ -1,9 +1,11 @@
-# BlockPro (out of the perspective of blockchain developer)
-Mission: Open, decentralized, permissenless and trustless protocol for energy consumers and suppliers
+# BlockPro
+**(out of the perspective of blockchain developer)**
+
+## Mission: Open, decentralized, permissenless and trustless protocol for energy consumers and suppliers
 
 ![Consollino Prosumer Node](./Consollino.png)
 
-# Modules
+## Modules
 1. **Blockpro Hardware** (both under one physical seal)
   - BlockPro Prosumer meter
   - BlockPro Light Node (on RaspberryPi)
