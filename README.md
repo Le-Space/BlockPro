@@ -4,9 +4,9 @@ Mission: Open, decentralized, permissenless and trustless protocol for energy co
 ![Consollino Prosumer Node](./Consollino.png)
 
 # Module
-1. **Blockpro Hardware**
+1. **Blockpro Hardware** (both under one physical seal)
   - BlockPro Prosumer meter
-  - BlockPro Light Node (on RaspberryPi under seal)
+  - BlockPro Light Node (on RaspberryPi)
     - OS and packages
     - Image and installation
 2. **BlockPro dApp**
