@@ -23,7 +23,7 @@ Mission: Open, decentralized, permissenless and trustless protocol for energy co
       - shows total amount of produced/consumend KW/h in the last hour, today, yesterday, this week, this month, this year, last year, etc.
       - visualizes the data in diagrams
       - shows the balance in DOI
-      - shows current balance of KWH-Token
+      - shows sold / bought KWH-Token (this hour, last hour, next hour, today, yesterday, tomomrrow, this week, last week, next week, ...)   
   - BlockPro meter and node certification procudure done by the electrician
       - the electrician signs a Doichain transaction which adds the new BlockPro node as 'valid' by him e.g. through a 'name_doi bp/meterNo' record on Doichain on consumer nodes can verify such a node as they trust the electrician
       - any electrician can form an organization on the Doichain by adding a name_doi transaction on Doichain e.g. via 'name_doi bp_organization/OrganizationName value: ipfs-hash of a file which contains the list of publicKeys of electrician members'
