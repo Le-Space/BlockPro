@@ -42,7 +42,18 @@
   - this transaction also includes the IPFS-hash which contains the detail kw/h meteor proofs
   - listing all name_doi transactions of a meteor by calling name_list bp-meter/meterNo would calculate total balance of kwh
 5. **Nano-Ledger App für Doichain**
-6. **Decentralized "KW-Token" Exchange**
+6. **Decentralized "KW/h-Token" Exchange**
+  - offered KW/h for the future are beeing traded and written into public ipfs (*unencrypted*? If no which (public)Key encrypts it?)  
+  - a producer offers to produce x KW/h next week, next month etc. 
+  - a consumer offers to buy x KW/h next week, next month etc. 
+  - a producer can accept an offer of a consumer
+  - a consumer cann accept an offer of a producer
+  - when a offer is accepted by the consumer 
+    - a deal transaction is stored on Doichain via name_doi bp-deal/meteorNo 
+    - the value of this transaction contains:
+      - the meteorNo of the producer
+      - the ordered amount of kw/h 
+      - aggreed price in DOI (or later possibly other crypto currencies)
 7. **Other tasks & thoughts**
   - Rebranding Doichain
   - tDOI on Ethereum blockchain and other trojan horses to buy and sell DOI (see and fork: https://tbtc.network/) 
@@ -52,3 +63,8 @@
   - 51% Blockchain attack
 9. Other blockchain based projects
   - EnergyWeb http://energyweb.org/
+10. Questions & Concerns
+  - electricity can only be sold for the future and not for the past
+  - what should happen if a consumer concumes energy he didn't pay for?
+  - what happens with energy the producer produced but didn't sell?
+  
