@@ -22,7 +22,7 @@ Mission: Open, decentralized, permissenless and trustless protocol for energy co
   - BlockPro meter and node certification procudure done by the electrician
       - the electrician signs a Doichain transaction which adds the new BlockPro node as 'valid' by him e.g. through a 'name_doi bp/meterNo' record on Doichain on consumer nodes can verify such a node as they trust the electrician
       - any electrician can form an organization on the Doichain by adding a name_doi transaction on Doichain e.g. via 'name_doi bp_organization/OrganizationName value: ipfs-hash of a file which contains the list of publicKeys of electrician members'
-      - Consumer and Producer are accepting an organization which allows them to trustlessly buy and sell KW-Tokens
+      - Consumer and Producer are accepting an organization which allows them to trustlessly buy and sell KW-Tokens (see exchange)
  
 3. **The KW-Token**
 4. **Meter Reading module**
