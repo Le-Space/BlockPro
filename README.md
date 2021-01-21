@@ -1,5 +1,5 @@
 # BlockPro
-Mission: BlockPro an open, decentralized, permissenless and trustless protocol for energy consumers and suppliers
+Mission: Open, decentralized, permissenless and trustless protocol for energy consumers and suppliers
 
 ![Consollino Prosumer Node](./Consollino.png)
 
