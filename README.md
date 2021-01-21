@@ -24,7 +24,8 @@ Mission: Open, decentralized, permissenless and trustless protocol for energy co
       - visualizes the data in diagrams
       - shows the balance in DOI
       - shows sold / bought KWH-Token (this hour, last hour, next hour, today, yesterday, tomomrrow, this week, last week, next week, ...)
-      - Integrates the decentralized "KW-Token" Exchange
+      - integrates the decentralized "KW-Token" Exchange
+      - integrates a hardware wallet to store Doicoin (e.g. Nano-Ledger) and sign KWH-Deals in teh "KW-Tokeen" Exchange
   - BlockPro meter and node certification procudure done by the electrician
       - the electrician signs a Doichain transaction which adds the new BlockPro node as 'valid' by him e.g. through a 'name_doi bp/meterNo' record on Doichain on consumer nodes can verify such a node as they trust the electrician
       - any electrician can form an organization on the Doichain by adding a name_doi transaction on Doichain e.g. via 'name_doi bp_organization/OrganizationName value: ipfs-hash of a file which contains the list of publicKeys of electrician members'
@@ -34,7 +35,9 @@ Mission: Open, decentralized, permissenless and trustless protocol for energy co
   - since these data are coming unsigned from the meteor we need to seal the RaspberryPi together with the meter
   - the read data are written into a file on ipfs the resulting hash is to another cumulative file containing the read data from the last hour (or 30 minutes etc.)
 4. **The KW-Token**
-  - When 
+  - When writing the produces and/or consumend kw/h into IPFS the resulting hash of the latest cumulative file must be writen into blockchain. 
+  - this can be done by executing name_doi command with nameId bp-meter/meterNo and as value the amount of produced (e.g. +30 KW/h) or consumed (e.g. -1 KW/h)
+  - this transaction also includes the IPFS-hash which contains the detail kw/h meteor proofs 
 5. **Nano-Ledger App für Doichain**
 6. **Decentralized "KW-Token" Exchange**
 7. **Other tasks & thoughts**
