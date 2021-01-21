@@ -7,6 +7,8 @@ Mission: Open, decentralized, permissenless and trustless protocol for energy co
 1. **Blockpro Hardware**
   - BlockPro Prosumer meter
   - BlockPro Light Node (on RaspberryPi)
+    - OS and Packages
+    - Image & Installation
 2. **BlockPro dApp**
   - BlockPro node & meter onboarding procedure
   - BockPro decentralized wallet (hosted on IPFS)
