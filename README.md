@@ -37,11 +37,14 @@ Mission: Open, decentralized, permissenless and trustless protocol for energy co
 4. **The KW-Token**
   - When writing the produces and/or consumend kw/h into IPFS the resulting hash of the latest cumulative file must be writen into blockchain. 
   - this can be done by executing name_doi command with nameId bp-meter/meterNo and as value the amount of produced (e.g. +30 KW/h) or consumed (e.g. -1 KW/h)
-  - this transaction also includes the IPFS-hash which contains the detail kw/h meteor proofs 
+  - this transaction also includes the IPFS-hash which contains the detail kw/h meteor proofs
+  - listing all name_doi transactions of a meteor by calling name_list bp-meter/meterNo would calculate total balance of kwh
 5. **Nano-Ledger App für Doichain**
 6. **Decentralized "KW-Token" Exchange**
 7. **Other tasks & thoughts**
   - Rebranding Doichain
+  - tDOI on Ethereum blockchain and other trojan horses to buy and sell DOI (see and fork: https://tbtc.network/) 
+  - Should KWH/Token be possible to directly be sold on other crypto exchanges? Is that at all possible or even useful? 
 8. **Attack Scenarios**
   - 51% Blockchain attack
 9. Other blockchain based projects
