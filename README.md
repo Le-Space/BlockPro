@@ -56,7 +56,7 @@
       - aggreed price in DOI (or later possibly other crypto currencies)
     - the Bob (consumer) sends the aggreed amount of DOI to a multisig account with Alice (the producer)
     - as the aggreed amount of KW/h was delivered Alice (producer) creates and signs a DOI (coin) - transaction (offchain( to Bob to transfer the aggreed DOI from the multisig to her wallet. Bob signs this transaction and pays the electricity bill.  
-    - both parties have to sign
+    - How to solve disbutes? Alice delivered but Bob doesn't sign the transaction? Who is going to help? 
 7. **Other tasks & thoughts**
   - Rebranding Doichain
   - tDOI on Ethereum blockchain and other trojan horses to buy and sell DOI (see and fork: https://tbtc.network/) 
