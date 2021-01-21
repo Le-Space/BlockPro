@@ -14,3 +14,7 @@ Mission: Open, decentralized, permissenless and trustless protocol for energy co
 4. **Meter Reading module**
 5. **Nano-Ledger App für Doichain**
 6. **Decentralized "KW-Token" Exchange**
+6. **Attack Scenarios**
+  - 51% Blockchain attack
+7. Other blockchain based projects
+  - EnergyWeb http://energyweb.org/
