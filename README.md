@@ -46,8 +46,8 @@
   - offered KW/h for the future are beeing traded and written into public ipfs (*unencrypted*? If no which (public)Key encrypts it?)  
   - a producer offers to produce x KW/h next week, next month etc. 
   - a consumer offers to buy x KW/h next week, next month etc. 
-  - a producer can accept an offer of a consumer
-  - a consumer cann accept an offer of a producer
+  - a producer can accept an buy-offer of a consumer
+  - a consumer can accept an sell-offer of a producer
   - when a offer is accepted by the consumer 
     - a deal transaction is stored by the consumer on Doichain via name_doi bp-deal/meteorNo 
     - the value of this transaction contains:
