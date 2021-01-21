@@ -35,7 +35,7 @@ Mission: Open, decentralized, permissenless and trustless protocol for energy co
   - since these data are coming unsigned from the meteor we need to seal the RaspberryPi together with the meter
   - the read data are written into a file on ipfs the resulting hash is to another cumulative file containing the read data from the last hour (or 30 minutes etc.)
 4. **The KW-Token**
-  - When writing the produces and/or consumend kw/h into IPFS the resulting hash of the latest cumulative file must be writen into blockchain. 
+  - When writing the produced and/or consumend kw/h into IPFS the resulting hash of the latest cumulative file must be writen into blockchain. 
   - this can be done by executing name_doi command with nameId bp-meter/meterNo and as value the amount of produced (e.g. +30 KW/h) or consumed (e.g. -1 KW/h)
   - this transaction also includes the IPFS-hash which contains the detail kw/h meteor proofs
   - listing all name_doi transactions of a meteor by calling name_list bp-meter/meterNo would calculate total balance of kwh
