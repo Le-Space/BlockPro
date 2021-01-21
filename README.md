@@ -23,7 +23,8 @@ Mission: Open, decentralized, permissenless and trustless protocol for energy co
       - shows total amount of produced/consumend KW/h in the last hour, today, yesterday, this week, this month, this year, last year, etc.
       - visualizes the data in diagrams
       - shows the balance in DOI
-      - shows sold / bought KWH-Token (this hour, last hour, next hour, today, yesterday, tomomrrow, this week, last week, next week, ...)   
+      - shows sold / bought KWH-Token (this hour, last hour, next hour, today, yesterday, tomomrrow, this week, last week, next week, ...)
+      - Integrates the decentralized "KW-Token" Exchange
   - BlockPro meter and node certification procudure done by the electrician
       - the electrician signs a Doichain transaction which adds the new BlockPro node as 'valid' by him e.g. through a 'name_doi bp/meterNo' record on Doichain on consumer nodes can verify such a node as they trust the electrician
       - any electrician can form an organization on the Doichain by adding a name_doi transaction on Doichain e.g. via 'name_doi bp_organization/OrganizationName value: ipfs-hash of a file which contains the list of publicKeys of electrician members'
@@ -32,7 +33,6 @@ Mission: Open, decentralized, permissenless and trustless protocol for energy co
   - is a software module installed on a RaspberryPi which connects in a defined time to the meteor and reads the produced and consumed KW/h
   - since these data are coming unsigned from the meteor we need to seal the RaspberryPi together with the meter
   - the read data are written into a file on ipfs the resulting hash is to another cumulative file containing the read data from the last hour (or 30 minutes etc.)
-  - 
 4. **The KW-Token**
   - When 
 5. **Nano-Ledger App für Doichain**
