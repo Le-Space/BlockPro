@@ -49,11 +49,14 @@
   - a producer can accept an offer of a consumer
   - a consumer cann accept an offer of a producer
   - when a offer is accepted by the consumer 
-    - a deal transaction is stored on Doichain via name_doi bp-deal/meteorNo 
+    - a deal transaction is stored by the consumer on Doichain via name_doi bp-deal/meteorNo 
     - the value of this transaction contains:
       - the meteorNo of the producer
       - the ordered amount of kw/h 
       - aggreed price in DOI (or later possibly other crypto currencies)
+    - the Bob (consumer) sends the aggreed amount of DOI to a multisig account with Alice (the producer)
+    - as the aggreed amount of KW/h was delivered Alice (producer) creates and signs a DOI (coin) - transaction (offchain( to Bob to transfer the aggreed DOI from the multisig to her wallet. Bob signs this transaction and pays the electricity bill.  
+    - both parties have to sign
 7. **Other tasks & thoughts**
   - Rebranding Doichain
   - tDOI on Ethereum blockchain and other trojan horses to buy and sell DOI (see and fork: https://tbtc.network/) 
@@ -61,10 +64,13 @@
 8. **Attack Scenarios and how to prevent it**
   - attacker removes seel and writes non-legit data the blockchain, sells not produced KWH-Token or doesn't pay for the in reality produced electricity
   - 51% Blockchain attack
-9. Other blockchain based projects
+9. **Other blockchain based projects**
   - EnergyWeb http://energyweb.org/
-10. Questions & Concerns
-  - electricity can only be sold for the future and not for the past
+10. **Questions, concerns, thoughts**
+  - how to solve price instability of traded KW/h in DOI? Can we implement a automatic price adjustmet when DOI to EUR/Dollar or BTC changes? 
+  - do we need an automated interface to another crypto exchange to automatically sell DOI to the current price?  
+  - electricity can only be sold for the future and not for the past 
   - what should happen if a consumer concumes energy he didn't pay for?
   - what happens with energy the producer produced but didn't sell?
+  - who can make a list of exchanges and their conditions to list Doichain?
   
