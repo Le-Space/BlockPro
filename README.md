@@ -78,6 +78,8 @@
   - 51% Blockchain attack
 ### **Other blockchain based projects**
   - EnergyWeb http://energyweb.org/
+### **Licences**
+
 ### **Questions, concerns, thoughts**
   - how to solve price instability of traded KW/h in DOI? Can we implement a automatic price adjustmet when DOI to EUR/Dollar or BTC changes? 
   - do we need an automated interface to another crypto exchange to automatically sell DOI to the current price?  
