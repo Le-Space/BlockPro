@@ -18,9 +18,9 @@
 - [Questions, concerns, thoughts](#Questions-concerns-thoughts)
 
 ## Modules
-### **Blockpro Hardware** (both under one physical seal)
-  - BlockPro Prosumer meter
-  - BlockPro Light Node (on RaspberryPi)
+### **Blockpro Hardware** 
+  - BlockPro Prosumer meter (sealed)
+  - BlockPro Light Node (on RaspberryPi) (sealed)
     - OS and packages
     - Image and installation
 ### **BlockPro dApp**
