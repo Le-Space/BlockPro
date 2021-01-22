@@ -5,6 +5,12 @@
 
 ![Consollino Prosumer Node](./Consollino.png)
 
+# Table of Contentw
+- [Blockpro Hardware]((#blockpro-hardware))
+- [Blockpro dApp](#blockpro-hardware)
+- [Meter Reading module](#meter-reading-module)
+- [The-KW-Token](#the-kw-token)
+
 ## Modules
 1. **Blockpro Hardware** (both under one physical seal)
   - BlockPro Prosumer meter
