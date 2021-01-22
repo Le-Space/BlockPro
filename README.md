@@ -5,19 +5,25 @@
 
 ![Consollino Prosumer Node](./Consollino.png)
 
-# Table of Contentw
-- [Blockpro Hardware]((#blockpro-hardware))
-- [Blockpro dApp](#blockpro-hardware)
+# Table of Contents
+- [Blockpro Hardware](#blockpro-hardware])
+- [Blockpro dApp](#blockpro-dapp)
 - [Meter Reading module](#meter-reading-module)
 - [The-KW-Token](#the-kw-token)
+- [Nano-Ledger App für Doichain](#nano---ledger-app-für-doichain)
+- [Decentralized "KW/h-Token" Exchange](#decentralized-"kw/h---token"-exchange)
+- [Other tasks](#other-tasks)
+- [Attack Scenarios and how to prevent it](#Attack-Scenarios-and-how-to-prevent-it)
+- [Other blockchain based projects](#Other-blockchain-based-projects)
+- [Questions, concerns, thoughts](#Questions-concerns-thoughts)
 
 ## Modules
-1. **Blockpro Hardware** (both under one physical seal)
+### **Blockpro Hardware** (both under one physical seal)
   - BlockPro Prosumer meter
   - BlockPro Light Node (on RaspberryPi)
     - OS and packages
     - Image and installation
-2. **BlockPro dApp**
+### **BlockPro dApp**
   - BlockPro node & meter onboarding procedure
     - First start scenario and procedure
       - As BlockPro meter and prosumer node are started first time, the dApp generates a private key which mustn't shown to anybody at anytime
@@ -38,17 +44,17 @@
       - the electrician signs a Doichain transaction which adds the new BlockPro node as 'valid' by him e.g. through a 'name_doi bp/meterNo' record on Doichain on consumer nodes can verify such a node as they trust the electrician
       - any electrician can form an organization on the Doichain by adding a name_doi transaction on Doichain e.g. via 'name_doi bp_organization/OrganizationName value: ipfs-hash of a file which contains the list of publicKeys of electrician members'
       - Consumer and Producer are accepting an organization which allows them to trustlessly buy and sell KW-Tokens (see exchange)
-3. **Meter Reading module**
+### **Meter Reading module**
   - is a software module installed on a RaspberryPi which connects in a defined time to the meteor and reads the produced and consumed KW/h
   - since these data are coming unsigned from the meteor we need to seal the RaspberryPi together with the meter
   - the read data are written into a file on ipfs the resulting hash is to another cumulative file containing the read data from the last hour (or 30 minutes etc.)
-4. **The KW-Token**
+### **The KW-Token**
   - When writing the produced and/or consumend kw/h into IPFS the resulting hash of the latest cumulative file must be writen into blockchain. 
   - this can be done by executing name_doi command with nameId bp-meter/meterNo and as value the amount of produced (e.g. +30 KW/h) or consumed (e.g. -1 KW/h)
   - this transaction also includes the IPFS-hash which contains the detail kw/h meteor proofs
   - listing all name_doi transactions of a meteor by calling name_list bp-meter/meterNo would calculate total balance of kwh
-5. **Nano-Ledger App für Doichain**
-6. **Decentralized "KW/h-Token" Exchange**
+### **Nano-Ledger App für Doichain**
+### **Decentralized "KW/h-Token" Exchange**
   - offered KW/h for the future are beeing traded and written into public ipfs (*unencrypted*? If no which (public)Key encrypts it?)  
   - a producer offers to produce x KW/h next week, next month etc. 
   - a consumer offers to buy x KW/h next week, next month etc. 
@@ -63,16 +69,16 @@
     - the Bob (consumer) sends the aggreed amount of DOI to a multisig account with Alice (the producer)
     - as the aggreed amount of KW/h was delivered Alice (producer) creates and signs a DOI (coin) - transaction (offchain( to Bob to transfer the aggreed DOI from the multisig to her wallet. Bob signs this transaction and pays the electricity bill.  
     - How to solve disbutes? Alice delivered but Bob doesn't sign the transaction? Who is going to help? 
-7. **Other tasks & thoughts**
+### **Other tasks & thoughts**
   - Rebranding Doichain
   - tDOI on Ethereum blockchain and other trojan horses to buy and sell DOI (see and fork: https://tbtc.network/) 
   - Should KWH/Token be possible to directly be sold on other crypto exchanges? Is that at all possible or even useful? 
-8. **Attack Scenarios and how to prevent it**
+### **Attack Scenarios and how to prevent it**
   - attacker removes seel and writes non-legit data the blockchain, sells not produced KWH-Token or doesn't pay for the in reality produced electricity
   - 51% Blockchain attack
-9. **Other blockchain based projects**
+### **Other blockchain based projects**
   - EnergyWeb http://energyweb.org/
-10. **Questions, concerns, thoughts**
+### **Questions, concerns, thoughts**
   - how to solve price instability of traded KW/h in DOI? Can we implement a automatic price adjustmet when DOI to EUR/Dollar or BTC changes? 
   - do we need an automated interface to another crypto exchange to automatically sell DOI to the current price?  
   - electricity can only be sold for the future and not for the past 
