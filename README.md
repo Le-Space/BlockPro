@@ -11,7 +11,7 @@
 - [Meter Reading module](#meter-reading-module)
 - [The-KW-Token](#the-kw-token)
 - [Nano-Ledger App for Doichain](#nano---ledger-app-for-doichain)
-- [Decentralized BlockPro-Exchange](#Decentralized-BlockPro---Exchange)
+- [Decentralized BlockPro-Exchange](#decentralized-blockpro---exchange)
 - [Other tasks](#other-tasks)
 - [Attack Scenarios and how to prevent it](#atack-scenarios-and-how-to-prevent-it)
 - [Other blockchain based projects](#Other-blockchain-based-projects)
