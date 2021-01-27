@@ -11,7 +11,7 @@
 - [Meter Reading module](#meter-reading-module)
 - [The-KW-Token](#the-kw-token)
 - [Nano-Ledger App for Doichain](#nano---ledger-app-for-doichain)
-- [Decentralized BlockoPro-Exchange](#Decentralized-BlockoPro---Exchange)
+- [Decentralized BlockPro-Exchange](#Decentralized-BlockPro---Exchange)
 - [Other tasks](#other-tasks)
 - [Attack Scenarios and how to prevent it](#atack-scenarios-and-how-to-prevent-it)
 - [Other blockchain based projects](#Other-blockchain-based-projects)
@@ -55,7 +55,7 @@
   - this transaction also includes the IPFS-hash which contains the detail kw/h meteor proofs
   - listing all name_doi transactions of a meteor by calling name_list bp-meter/meterNo would calculate total balance of kwh
 ### **Nano-Ledger App for Doichain**
-### **Decentralized BlockoPro-Exchange**
+### **Decentralized BlockPro-Exchange**
   - offered KW/h for the future are beeing traded and written into public ipfs (*unencrypted*? If no which (public)Key encrypts it?)  
   - a producer offers to produce x KW/h next week, next month etc. 
   - a consumer offers to buy x KW/h next week, next month etc. 
