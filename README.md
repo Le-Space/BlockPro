@@ -45,6 +45,7 @@
       - any electrician can form an organization on the Doichain by adding a name_doi transaction on Doichain e.g. via 'name_doi bp_organization/OrganizationName value: ipfs-hash of a file which contains the list of publicKeys of electrician members'
       - Consumer and Producer are accepting an organization which allows them to trustlessly buy and sell KW-Tokens (see exchange)
 ### **Meter Reading module**
+  ![Consollino Prosumer Node](./BlockProProsumerNodeArchitectureModel_v0.0.2.png)
   - is a software module installed on a RaspberryPi which connects in a defined time to the meteor and reads the produced and consumed KW/h
   - since these data are coming unsigned from the meteor we need to seal the RaspberryPi together with the meter or put both parts into one seeled case.
   - the read data are written into a file on ipfs the resulting hash is to another cumulative file containing the read data from the last hour (or 30 minutes etc.)
