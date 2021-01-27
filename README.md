@@ -10,8 +10,8 @@
 - [Blockpro dApp](#blockpro-dapp)
 - [Meter Reading module](#meter-reading-module)
 - [The-KW-Token](#the-kw-token)
-- [Nano-Ledger App für Doichain](#nano---ledger-app-für-doichain)
-- [Decentralized "KW/h-Token" Exchange](#decentralized-"kw/h---token"-exchange)
+- [Nano-Ledger App for Doichain](#nano---ledger-app-for-doichain)
+- [Decentralized "KW/h-Token" Exchange](#decentralized--kw-h---token--exchange)
 - [Other tasks](#other-tasks)
 - [Attack Scenarios and how to prevent it](#Attack-Scenarios-and-how-to-prevent-it)
 - [Other blockchain based projects](#Other-blockchain-based-projects)
@@ -54,7 +54,7 @@
   - this can be done by executing name_doi command with nameId bp-meter/meterNo and as value the amount of produced (e.g. +30 KW/h) or consumed (e.g. -1 KW/h)
   - this transaction also includes the IPFS-hash which contains the detail kw/h meteor proofs
   - listing all name_doi transactions of a meteor by calling name_list bp-meter/meterNo would calculate total balance of kwh
-### **Nano-Ledger App für Doichain**
+### **Nano-Ledger App for Doichain**
 ### **Decentralized "KW/h-Token" Exchange**
   - offered KW/h for the future are beeing traded and written into public ipfs (*unencrypted*? If no which (public)Key encrypts it?)  
   - a producer offers to produce x KW/h next week, next month etc. 
@@ -70,7 +70,7 @@
     - the Bob (consumer) sends the aggreed amount of DOI to a multisig account with Alice (the producer)
     - as the aggreed amount of KW/h was delivered Alice (producer) creates and signs a DOI (coin) - transaction (offchain( to Bob to transfer the aggreed DOI from the multisig to her wallet. Bob signs this transaction and pays the electricity bill.  
     - How to solve disbutes? Alice delivered but Bob doesn't sign the transaction? Who is going to help? 
-### **Other tasks & thoughts**
+### **Other tasks**
   - Rebranding Doichain
   - tDOI on Ethereum blockchain and other trojan horses to buy and sell DOI (see and fork: https://tbtc.network/) 
   - Should KWH/Token be possible to directly be sold on other crypto exchanges? Is that at all possible or even useful? 
