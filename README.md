@@ -1,5 +1,5 @@
 # BlockPro
-**(the perspective of a blockchain developer)**
+**(draft blockchain architecture)**
 
 ## Mission: Open, decentralized, permissenless and trustless protocol for energy consumers and suppliers
 
