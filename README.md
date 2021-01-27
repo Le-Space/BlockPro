@@ -46,7 +46,7 @@
       - Consumer and Producer are accepting an organization which allows them to trustlessly buy and sell KW-Tokens (see exchange)
 ### **Meter Reading module**
   - is a software module installed on a RaspberryPi which connects in a defined time to the meteor and reads the produced and consumed KW/h
-  - since these data are coming unsigned from the meteor we need to seal the RaspberryPi together with the meter
+  - since these data are coming unsigned from the meteor we need to seal the RaspberryPi together with the meter or put both parts into one seeled case.
   - the read data are written into a file on ipfs the resulting hash is to another cumulative file containing the read data from the last hour (or 30 minutes etc.)
 ### **The KW-Token**
   - When writing the produced and/or consumend kw/h into IPFS the resulting hash of the latest cumulative file must be writen into blockchain. 
