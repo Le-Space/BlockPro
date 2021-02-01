@@ -76,7 +76,9 @@
   - Should KWH/Token be possible to directly be sold on other crypto exchanges? Is that at all possible or even useful? 
 ### **Attack Scenarios and how to prevent it**
   - attacker removes seel and writes non-legit data the blockchain, sells not produced KWH-Token or doesn't pay for the in reality produced electricity
-  - 51% Blockchain attack
+  - 51% Blockchain attack 
+  - centralized-price-oracles 
+    In case we need to calculate exchange rates - https://insights.glassnode.com/defi-attacks-flash-loans-centralized-price-oracles/
 ### **Other blockchain based projects**
   - EnergyWeb http://energyweb.org/
 ### **Licences**
