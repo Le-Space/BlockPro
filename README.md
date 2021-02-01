@@ -13,7 +13,7 @@
 - [Nano-Ledger App for Doichain](#nano---ledger-app-for-doichain)
 - [Decentralized BlockPro-Exchange](#decentralized-blockpro---exchange)
 - [Other tasks](#other-tasks)
-- [Attack scenarios and how to prevent it](#atack-scenarios-and-how-to-prevent-it)
+- [Attack scenarios and how to prevent them](#atack-scenarios-and-how-to-prevent-it)
 - [Other blockchain based projects](#Other-blockchain-based-projects)
 - [Questions, concerns, thoughts](#Questions-concerns-thoughts)
 
@@ -74,7 +74,7 @@
   - Rebranding Doichain
   - tDOI on Ethereum blockchain and other trojan horses to buy and sell DOI (see and fork: https://tbtc.network/) 
   - Should KWH/Token be possible to directly be sold on other crypto exchanges? Is that at all possible or even useful? 
-### **Attack scenarios and how to prevent it**
+### **Attack scenarios and how to prevent them**
   - attacker removes seel and writes non-legit data the blockchain, sells not produced KWH-Token or doesn't pay for the in reality produced electricity
   - 51% Blockchain attack 
   - centralized-price-oracles 
